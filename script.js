@@ -21,7 +21,7 @@ document.getElementById("strtBtn").addEventListener("click",()=>{
     {
         clearInterval(int);
     }
-    int = setInterval(displayTime,10);
+    int = setInterval(displayTime,1);
 })
 document.getElementById("pauseBtn").addEventListener("click",()=>{
     clearInterval(int);
